@@ -1,0 +1,43 @@
+@import "normalize.css";
+
+@font-face {
+    font-family: 'gotham';
+    src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'),  url('Gotham-Bold.otf')  format('opentype'),
+    url('Gotham-Bold.woff') format('woff'), url('Gotham-Bold.ttf')  format('truetype'), url('Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body, html, .v-align {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'gotham';
+    letter-spacing: -1px;
+}
+
+body {
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.v-align {
+    display: table;
+}
+
+.v-align-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.description {
+    font-size: 28px;
+    line-height: 42px;
+    color: #a5b1bf;
+}
